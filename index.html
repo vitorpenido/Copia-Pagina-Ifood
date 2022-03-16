@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FoodBox</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+      <main>
+    <div class="topo">
+      <h1>FoodBox</h1>
+      <h2>Monte seu box e receba em 15 minutos!</h2>
+    </div>
+    <h3>Primeiro, seu prato</h3>
+    <div id="frango" class="produto" onclick="escolherFrango()">
+      <img
+        src="https://img.elo7.com.br/product/original/22565B3/adesivo-parede-prato-comida-frango-salada-restaurante-lindo-adesivo-parede.jpg"
+        alt="img"
+      />
+      <h4>Frango Yin-Yang</h4>
+      <p>Um pouco de batata, um pouco de salada</p>
+      <p><strong>R$ 19,90</strong></p>
+    </div>
+    <div id="carne" class="produto" onclick="escolherCarne()">
+      <img
+        src="https://img.elo7.com.br/product/original/22565B3/adesivo-parede-prato-comida-frango-salada-restaurante-lindo-adesivo-parede.jpg"
+        alt="img"
+      />
+      <h4>Carne e Salada</h4>
+      <p>Partida ao meio para parecer mais carne</p>
+      <p><strong>R$ 19,90</strong></p>
+    </div>
+    <h3>Agora sua bebida</h3>
+    <div id="coca" class="produto" onclick="escolherCoca()">
+      <img
+        src="https://static.wixstatic.com/media/dacdfe_5705c6d8a6d847d3a59263be354cc02f~mv2.jpg/v1/fill/w_584,h_341,al_c,q_90/dacdfe_5705c6d8a6d847d3a59263be354cc02f~mv2.jpg"
+        alt="coca cola"
+      />
+      <h4>Coca-cola gelda</h4>
+      <p>Normal, zero ou stevia. Vai na sorte</p>
+      <p><strong>R$ 5,90</strong></p>
+    </div>
+    <div id="suco" class="produto" onclick="escolherSuco()">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_MA3IjMWrKpj8Y7xH1VOEIh7c9aILmytbfA&usqp=CAU"
+        alt="copo de suco"
+      />
+      <h4>Suco</h4>
+      <p>Podia ser suco, mas leva agua</p>
+      <p><strong>R$ 3,90</strong></p>
+    </div>
+    <h3>Porfim sua sobremesa</h3>
+    <div id="pudim" class="produto" onclick="escolherPudim()">
+      <img
+        src="https://s2.glbimg.com/115DQucrWsNOUxf_ncmMUisprZI=/0x0:1080x819/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/w/a/cB6VP5QoOByFKEuCleIQ/jonreceitas-109758346-416338779271002-5424220606850697813-n.jpg"
+        alt="pudim"
+      />
+      <h4>Pudim</h4>
+      <p>Apenas um lindo e brilhante pudim</p>
+      <p><strong>R$ 7,90</strong></p>
+    </div>
+    <div id="sorvete" class="produto" onclick="escolherSorvete()">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXXu4OQP06CXcKmU4Q6ykz3u-rDH8M5Y9csg&usqp=CAU"
+        alt="soverteco"
+      />
+      <h4>Sorvete</h4>
+      <p>Sorvete bem gelado e bem bonito</p>
+      <p><strong>R$ 6,90</strong></p>
+    </div>
+
+    <div class="botao" onclick="finalizarPedido()">
+      Finalizar Pedido
+    </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+   
+  </body>
+</html>
